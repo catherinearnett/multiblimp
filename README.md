@@ -19,11 +19,11 @@ cd multiblimp
 
 ### Download Datasets
 
-For all the languages you plan to evaluate, download them in to a directory inside `multiblimp/`, called `hf_cache`. In this example, I download English, Dutch, Spanish, Greek, and Polish. Use the [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) code. 
+For all the languages you plan to evaluate, download them in to a directory inside `multiblimp/`, called `hf_cache`. Use the [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) code, e.g. `eng` for English, `tur` for Turkish, `rus` for Russian.
 
 ```
-for l in ['eng', 'nld', 'spa', 'ell', 'pol']:
-  hf_hub_download(repo_id="jumelet/multiblimp", filename=f"{l}/data.tsv", repo_type="dataset", local_dir='hf_cache/')
+python download_data.py --langs eng tur rus
+
 ```
 
 ## Using MultiBLiMP
