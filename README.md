@@ -23,7 +23,6 @@ For all the languages you plan to evaluate, download them in to a directory insi
 
 ```
 python download_data.py --langs eng tur rus
-
 ```
 
 ## Using MultiBLiMP
