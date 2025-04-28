@@ -4,9 +4,9 @@ This is my modified implementation of [Jumelet et al. (2025) MultiBLiMP 1.0](htt
 
 The updates include:
 * documentation on how to integrate the Hugging Face datasets into the pipeline
+* code to automatically download datasets for each language
 * example code for running multiblimp
 * handling of model checkpoints
-
 
 ## Setup
 
